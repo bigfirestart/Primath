@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bd6f91f-256f-4c96-acc9-1acead4fd41d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="9373cb11-1a99-4ae3-ac93-214006f48cd4" />
+  <component name="ProjectId" id="1qfJ7nQSILYT44WWPdHr42guUn6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../new/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bd6f91f-256f-4c96-acc9-1acead4fd41d" name="Default Changelist" comment="" />
+      <created>1617464545608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617464545608</updated>
+      <workItem from="1617464571934" duration="6994000" />
+      <workItem from="1617715412855" duration="16497000" />
+      <workItem from="1617802269659" duration="610000" />
+      <workItem from="1617804268329" duration="4326000" />
+      <workItem from="1617819382596" duration="359000" />
+      <workItem from="1617819995396" duration="4497000" />
+      <workItem from="1617825294727" duration="727000" />
+      <workItem from="1617826026280" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="257" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617820543349">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="257" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1617820543349" />
+    <state width="676" height="245" key="GridCell.Tab.0.bottom" timestamp="1617825020173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="676" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617825020172" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1617803542751" />
+    <state width="606" height="264" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1617514274109" />
+    <state width="676" height="245" key="GridCell.Tab.0.center" timestamp="1617825020171">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="676" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617825020171" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1617803542747" />
+    <state width="606" height="264" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1617514274108" />
+    <state width="676" height="245" key="GridCell.Tab.0.left" timestamp="1617825020170">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="676" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617825020170" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1617803542746" />
+    <state width="606" height="264" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1617514274108" />
+    <state width="676" height="245" key="GridCell.Tab.0.right" timestamp="1617825020172">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="676" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617825020172" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1617803542748" />
+    <state width="606" height="264" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1617514274109" />
+    <state width="630" height="303" key="GridCell.Tab.1.bottom" timestamp="1617779346496">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="630" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617779346496" />
+    <state width="606" height="264" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1617488834178" />
+    <state width="606" height="264" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1617514274110" />
+    <state width="630" height="303" key="GridCell.Tab.1.center" timestamp="1617779346495">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="630" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1617779346495" />
+    <state width="606" height="264" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1617488834177" />
+    <state width="606" height="264" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1617514274110" />
+    <state width="630" height="303" key="GridCell.Tab.1.left" timestamp="1617779346495">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="630" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1617779346495" />
+    <state width="606" height="264" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1617488834177" />
+    <state width="606" height="264" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1617514274109" />
+    <state width="630" height="303" key="GridCell.Tab.1.right" timestamp="1617779346495">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="630" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1617779346495" />
+    <state width="606" height="264" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1617488834178" />
+    <state width="606" height="264" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1617514274110" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1617820544922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
+    <SUITE FILE_PATH="coverage/lab1$main.coverage" NAME="parabolic_interpolation Coverage Results" MODIFIED="1617779338404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab1$parabolic_interpolation.coverage" NAME="main Coverage Results" MODIFIED="1617802538390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
