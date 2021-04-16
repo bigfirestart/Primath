@@ -1,11 +1,7 @@
 import math as m
 
 
-def function(x):
-    return m.exp(m.sin(x)) * x ** 2
-
-
-def brents_method(a: float, c: float, e: float):
+def brents_method(a: float, c: float, e: float, function: ()):
     u = 0
     iter_count = 0
     length_values = []
@@ -21,7 +17,6 @@ def brents_method(a: float, c: float, e: float):
         t = d
         acc = True
         if x != w != v and fx != fw != fv:
-
             u = x - 0.5 * ((x - v) ** 2 * (fx - fw) - (x - w) ** 2 * (fx - fv)) / \
                 ((x - v) * (fx - fw) - (x - w) * (fx - fv))
             if a + e <= u <= c - e and abs(u - x) * e < g / 2:

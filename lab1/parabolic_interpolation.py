@@ -1,11 +1,7 @@
 import math as m
 
 
-def function(x):
-    return m.exp(m.sin(x)) * x ** 2
-
-
-def parabolic_interpolation(x1: float, x3: float, e: float):
+def parabolic_interpolation(x1: float, x3: float, e: float, function: ()):
     iter_count = 0
     length_values = []
     x2 = (x1 + x3) / 2
