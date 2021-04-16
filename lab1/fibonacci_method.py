@@ -1,4 +1,4 @@
-def fibonacci_method(left, right, length, eps, func):
+def fibonacci_method(left: float, right: float, length: float, eps: float, func: ()):
     fibonacci_list = [1, 1]
 
     index = 1
