@@ -42,8 +42,3 @@ class fibonacci_searcher:
                 f_lambda = self.func(lambda_)
 
         return (right + left) / 2
-
-
-searcher = fibonacci_searcher(lambda x: eval("exp(sin(x)) * (x ** 2)"))
-print(searcher.find_local_min(-5, 2.5, 0.001, 0.01))
-
