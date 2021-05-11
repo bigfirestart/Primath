@@ -16,7 +16,7 @@ def parabolic_interpolation(x1: float, x3: float, e: float, function: ()):
             ((x2 - x1) * (f2 - f3) - (x2 - x3) * (f2 - f1))
         fu = function(u)
         func_count += 1
-        if abs(fu - f2) <= e:
+        if abs(fu - f2) < e:
             return (u, fu, iter_count, func_count, length_values) if fu > f2 \
                 else (x2, f2, iter_count, func_count, length_values)
 

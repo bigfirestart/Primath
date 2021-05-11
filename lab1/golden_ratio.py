@@ -8,7 +8,9 @@ def golden_ratio(l: float, r: float, eps: float, f: ()):
     x2 = r - resphi * (r - l)
     f1 = f(x1)
     f2 = f(x2)
-    iter = 0
+    func_count = 2
+    iter_count = 0
+    length_values = [r - l]
     while True:
         if f1 < f2:
             r = x2
@@ -22,7 +24,9 @@ def golden_ratio(l: float, r: float, eps: float, f: ()):
             f1 = f2
             x2 = r - resphi * (r - l)
             f2 = f(x2)
-        iter += 1
+        length_values.append(r - l)
+        func_count += 1
+        iter_count += 1
         if abs(r - l) < eps:
             break
-    return (x1 + x2) / 2
+    return (x1 + x2) / 2, f((x1 + x2) / 2), iter_count, func_count + 1, length_values

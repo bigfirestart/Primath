@@ -1,6 +1,8 @@
-def fibonacci_method(left: float, right: float, length: float, eps: float, func: ()):
+def fibonacci_method(left: float, right: float, length: float, func: ()):
+    eps = 0.01
     fibonacci_list = [1, 1]
-
+    func_count = 0
+    length_values = [right - left]
     index = 1
     while fibonacci_list[index] < (right - left) / length:
         index += 1
@@ -12,6 +14,7 @@ def fibonacci_method(left: float, right: float, length: float, eps: float, func:
 
     f_lambda = func(lambda_)
     f_mu = func(mu_)
+    func_count += 2
 
     for k in range(1, n):
         if f_lambda > f_mu:
@@ -23,6 +26,7 @@ def fibonacci_method(left: float, right: float, length: float, eps: float, func:
             else:
                 mu_ = left + fibonacci_list[n - k] / fibonacci_list[n - k + 1] * (right - left)
             f_mu = func(mu_)
+            func_count += 1
         else:
             right = mu_
             mu_ = lambda_
@@ -32,7 +36,9 @@ def fibonacci_method(left: float, right: float, length: float, eps: float, func:
             else:
                 lambda_ = left + fibonacci_list[n - k - 1] / fibonacci_list[n - k + 1] * (right - left)
             f_lambda = func(lambda_)
+            func_count += 1
+        length_values.append(right - left)
 
-    return (right + left) / 2
+    return (right + left) / 2, func((right + left) / 2), n, func_count + 1, length_values
 
 

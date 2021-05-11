@@ -19,7 +19,7 @@ def brents_method(a: float, c: float, e: float, function: ()):
         if x != w != v and fx != fw != fv:
             u = x - 0.5 * ((x - v) ** 2 * (fx - fw) - (x - w) ** 2 * (fx - fv)) / \
                 ((x - v) * (fx - fw) - (x - w) * (fx - fv))
-            if a + e <= u <= c - e and abs(u - x) * e < g / 2:
+            if a + e <= u <= c - e and abs(u - x) < g / 2:
                 d = abs(u - x)
                 acc = False
 
@@ -35,7 +35,7 @@ def brents_method(a: float, c: float, e: float, function: ()):
 
         fu = function(u)
         func_count += 1
-        if abs(fu - fx) <= e:
+        if abs(fu - fx) < e:
             return (u, fu, iter_count, func_count, length_values) if fu > fx \
                 else (x, fx, iter_count, func_count, length_values)
 
