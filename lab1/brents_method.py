@@ -24,18 +24,16 @@ def brents_method(a: float, c: float, e: float, function: ()):
                 acc = False
 
         if acc:
-            if x < (c - a) / 2:
+            if x < (c + a) / 2:
                 u = x + K * (c - x)
                 d = c - x
             else:
                 u = x - K * (x - a)
                 d = x - a
-            if abs(u - x) < e:
-                u = x + (-1 if u - x < 0 else 1) * e
 
         fu = function(u)
         func_count += 1
-        if abs(fu - fx) < e:
+        if c - a < e:
             return (u, fu, iter_count, func_count, length_values) if fu > fx \
                 else (x, fx, iter_count, func_count, length_values)
 
