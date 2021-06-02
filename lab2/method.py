@@ -96,3 +96,19 @@ class Method:
                 f1 = f2
                 f2 = self.func([x[i] - gr[i] * p2 for i in range(len(gr))])
         return (a + b) / 2
+
+    def lambda_by_half_interval (self, x: list):
+        a = 0
+        b = 10
+        gr = self.calculate_gradient(x)
+        delta = (self.eps / 2) * 0.9
+
+        while abs(b - a) > self.eps:
+            p1 = (a + b) / 2 - delta
+            p2 = (a + b) / 2 + delta
+            f1 = self.func([x[i] - gr[i] * p1 for i in range(len(gr))])
+            f2 = self.func([x[i] - gr[i] * p2 for i in range(len(gr))])
+            if f1 > f2:
+                a = p1
+            else:
+                b = p2
