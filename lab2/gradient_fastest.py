@@ -1,6 +1,5 @@
 from method import Method
 import utils
-from scipy import optimize
 
 
 class GradientFastest(Method):
@@ -22,5 +21,5 @@ class GradientFastest(Method):
             x = utils.lists_sub(x0, s)
             self.iterations += 1
         pre_result = utils.lists_sum(x, x0)
-        self.answer = self.func(utils.multiply_list(pre_result, 1/2))
-        self.answer_point = utils.multiply_list(pre_result, 1/2)
+        self.answer = self.func(utils.multiply_list(pre_result, 1 / 2))
+        self.answer_point = utils.multiply_list(pre_result, 1 / 2)

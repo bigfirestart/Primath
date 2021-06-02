@@ -1,13 +1,7 @@
-from lab1.brents_method import brents_method
-from lab1.parabolic_interpolation import parabolic_interpolation
-from lab1.half_interval import half_divide_method
-from lab1.golden_ratio import golden_ratio
 from lab1.fibonacci_method import fibonacci_method
-from lab2.fletcher_reeves import fletcher_reeves
-from lab2.powell_method import powell_method
-from lab2.visualization import draw_lines
-import math as m
-import numpy as np
+from lab2.stored.fletcher_reeves import fletcher_reeves
+from lab2.stored.powell_method import powell_method
+from lab2.stored.visualization import draw_lines
 
 
 def f1(vec):

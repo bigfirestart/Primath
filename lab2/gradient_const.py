@@ -22,5 +22,5 @@ class GradientConst(Method):
             x, s = self.iteration(x0)
             print(utils.vector_mod(utils.lists_sub(x0, x)), self.iterations)
         pre_result = utils.lists_sum(x, x0)
-        self.answer = self.func(utils.multiply_list(pre_result, 1/2))
-        self.answer_point = utils.multiply_list(pre_result, 1/2)
+        self.answer = self.func(utils.multiply_list(pre_result, 1 / 2))
+        self.answer_point = utils.multiply_list(pre_result, 1 / 2)

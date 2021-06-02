@@ -1,5 +1,4 @@
-from gradient_const import GradientConst
-from gradient_fastest import GradientFastest
+from lab2.newton import Newton
 from plot import plot_and_show, it_plot
 import random
 
@@ -31,7 +30,7 @@ iterations = []
 for k in range(1, 200):
     f = generate_func(k, n)
     rand_point = [random.randint(-10, 10) for i in range(n)]
-    method = GradientFastest(f, 0.001, n, 0.5, rand_point)
+    method = Newton(f, 0.001, n, 0.5, rand_point)
     method.run()
     iterations.append(method.iterations)
     # print('steps: ', method.iterations)
